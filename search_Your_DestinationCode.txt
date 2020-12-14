@@ -1,0 +1,79 @@
+<!-- PACKAGE-SEARCH -->
+  <section id="package-search" class="py-5">
+    <div class="container">
+      <h1 class="text-white pt-0 searchBox">Search Your Destination</h1>
+      <form action="#">
+        <div class="row no-gutters">
+
+          <!-- destination input -->
+          <div class="col-md-4 ml-auto">
+            <div class="search">
+              <span class="fa fa-search"></span>
+              <input type="text" class="form-control" placeholder="Search Your Destination">
+            </div>
+          </div>
+
+          <!-- duration / days input -->
+          <div class="col-md-3 btn-days-wrapper">
+            <div class="clock-icon">
+              <span class="fa fa-clock-o"></span>
+              <input type="button" id="btn-days" value="Select Duration" class="form-control">
+            </div>
+            <!-- dropdowns -->
+            <div class="btn-days-dropdown">
+              <ul class="p-0 col">
+                <li><button type="button" value="1 to 3 days" class="btn btn-outline-info btn-block">
+                    1 to 3 days</button></li>
+                <li><button type="button" value="4 to 6 days" class="btn btn-outline-info btn-block">4 to 6 days</button></li>
+                <li><button type="button" value="7 to 9 days" class="btn btn-outline-info btn-block">7 to 9 days</button></li>
+                <li><button type="button" value="10 to 12 days" class="btn btn-outline-info btn-block">10 to 12 days</button></li>
+                <li><button type="button" value="13 to 15 days" class="btn btn-outline-info btn-block">13 to 15 days</button></li>
+                <li><button type="button" value="Not decided" class="btn btn-outline-info btn-block">Not decided</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- month input -->
+          <div class="col-md-3 btn-month-wrapper">
+            <div class="calendar-icon">
+              <span class="fa fa-calendar-o"></span>
+              <input type="button" id="btn-month" value="Select Month" class="form-control">
+            </div>
+            <!-- dropdowns -->
+            <div class="btn-month-dropdown">
+              <ul class="p-0 col">
+                <li><button type="button" value="January, 2019" class="btn btn-light btn-outline-info btn-block">
+                    January, 2019</button></li>
+                <li><button type="button" value="February, 2019" class="btn btn-light btn-outline-info btn-block">February,
+                    2019</button></li>
+                <li><button type="button" value="March, 2019" class="btn btn-light btn-outline-info btn-block">March,
+                    2019</button></li>
+                <li><button type="button" value="April, 2019" class="btn btn-light btn-outline-info btn-block">April,
+                    2019</button></li>
+                <li><button type="button" value="May, 2019" class="btn btn-light btn-outline-info btn-block">May, 2019</button></li>
+                <li><button type="button" value="June, 2019" class="btn btn-light btn-outline-info btn-block">June,
+                    2019</button></li>
+                <li><button type="button" value="July, 2019" class="btn btn-light btn-outline-info btn-block">July,
+                    2019</button></li>
+                <li><button type="button" value="August, 2019" class="btn btn-light btn-outline-info btn-block">August,
+                    2019</button></li>
+                <li><button type="button" value="September, 2019" class="btn btn-light btn-outline-info btn-block">September,
+                    2019</button></li>
+                <li><button type="button" value="October, 2019" class="btn btn-light btn-outline-info btn-block">October,
+                    2019</button></li>
+                <li><button type="button" value="November, 2019" class="btn btn-light btn-outline-info btn-block">November,
+                    2019</button></li>
+                <li><button type="button" value="December, 2019" class="btn btn-light btn-outline-info btn-block">December,
+                    2019</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 mr-auto">
+            <input type="submit" value="Explore" class="form-control btn btn-danger btn-lg">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section> 
+  
